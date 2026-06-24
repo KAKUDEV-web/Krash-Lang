@@ -203,8 +203,8 @@ showf "{a}"         // prints 5 (outer a unchanged)
 
 ### Declaration
 ```krash
-int scores[] = [90, 80, 100, 120]
-str names[] = ["Alice", "Leo", "Krash"]
+int[] scores = [90, 80, 100, 120]
+str[] names = ["Alice", "Leo", "Krash"]
 ```
 
 ### String & Array Methods
@@ -231,7 +231,7 @@ str names[] = ["Alice", "Leo", "Krash"]
 ### Array & String Examples
 
 ```krash
-int scores[] = [90, 20, 40, 50, 100]
+int[] scores = [90, 20, 40, 50, 100]
 
 // Access and math
 showf "{scores[0] + scores[1]}"     // prints 110
@@ -446,7 +446,7 @@ Libraries are `.ksh` files downloaded globally via package manager. When importi
 #FileUtils
 ```
 
-### Installing Libraries
+### Installing Libraries( --install is currently not available all libs are installed by default)
 
 ```bash
 ksh --install --math
@@ -721,4 +721,4 @@ krsh --help                           // Show help
 
 ---
 
-**Krash v1.0 – Ready for implementation!** 🚀
+**Krash v1.0 – Ready**
